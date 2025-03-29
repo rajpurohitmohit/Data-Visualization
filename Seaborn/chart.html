@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_7a24474f3c486dd6059ac6e17163ea6f {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_7a24474f3c486dd6059ac6e17163ea6f" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_7a24474f3c486dd6059ac6e17163ea6f = L.map(
+                "map_7a24474f3c486dd6059ac6e17163ea6f",
+                {
+                    center: [15.043199, 36.9921628],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 5,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_dbedde6b9cda179b4df983f817e20ed8 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_dbedde6b9cda179b4df983f817e20ed8.addTo(map_7a24474f3c486dd6059ac6e17163ea6f);
+        
+    
+            var circle_marker_0390ea3e05fb90e790078e5385048878 = L.circleMarker(
+                [28.7041, 77.1025],
+                {"bubblingMouseEvents": true, "color": "#ffd500ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffd500ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.0, "stroke": true, "weight": 3}
+            ).addTo(map_7a24474f3c486dd6059ac6e17163ea6f);
+        
+    
+        var popup_b0fa81a8ebf4e3f81dbcde7e8a299e6a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_35d4d27d93b7c0178ae99bfa13ef220a = $(`<div id="html_35d4d27d93b7c0178ae99bfa13ef220a" style="width: 100.0%; height: 100.0%;">Delhi: $150M</div>`)[0];
+                popup_b0fa81a8ebf4e3f81dbcde7e8a299e6a.setContent(html_35d4d27d93b7c0178ae99bfa13ef220a);
+            
+        
+
+        circle_marker_0390ea3e05fb90e790078e5385048878.bindPopup(popup_b0fa81a8ebf4e3f81dbcde7e8a299e6a)
+        ;
+
+        
+    
+    
+            var circle_marker_145c60ef1e5f5bc755fc651976a93504 = L.circleMarker(
+                [19.076, 72.8777],
+                {"bubblingMouseEvents": true, "color": "#ff0000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20.0, "stroke": true, "weight": 3}
+            ).addTo(map_7a24474f3c486dd6059ac6e17163ea6f);
+        
+    
+        var popup_e1b165af21c4b083fa44491f96ece005 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_86e74c13993957eb4cfe0702d48dcf30 = $(`<div id="html_86e74c13993957eb4cfe0702d48dcf30" style="width: 100.0%; height: 100.0%;">Mumbai: $200M</div>`)[0];
+                popup_e1b165af21c4b083fa44491f96ece005.setContent(html_86e74c13993957eb4cfe0702d48dcf30);
+            
+        
+
+        circle_marker_145c60ef1e5f5bc755fc651976a93504.bindPopup(popup_e1b165af21c4b083fa44491f96ece005)
+        ;
+
+        
+    
+    
+            var circle_marker_bd403fcfafc3505e5d2a19ba8a8e1741 = L.circleMarker(
+                [31.1471, 75.3412],
+                {"bubblingMouseEvents": true, "color": "#d5ea00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d5ea00ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.0, "stroke": true, "weight": 3}
+            ).addTo(map_7a24474f3c486dd6059ac6e17163ea6f);
+        
+    
+        var popup_1f85fd5d4069861cc4b3a76fd01fe6a8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5fce95b390cba9dc85f0e48d1a517885 = $(`<div id="html_5fce95b390cba9dc85f0e48d1a517885" style="width: 100.0%; height: 100.0%;">Punjab: $130M</div>`)[0];
+                popup_1f85fd5d4069861cc4b3a76fd01fe6a8.setContent(html_5fce95b390cba9dc85f0e48d1a517885);
+            
+        
+
+        circle_marker_bd403fcfafc3505e5d2a19ba8a8e1741.bindPopup(popup_1f85fd5d4069861cc4b3a76fd01fe6a8)
+        ;
+
+        
+    
+    
+            var circle_marker_814e698b29e8129ccf9892188cd8d334 = L.circleMarker(
+                [29.0588, 76.0856],
+                {"bubblingMouseEvents": true, "color": "#aad500ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#aad500ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.0, "stroke": true, "weight": 3}
+            ).addTo(map_7a24474f3c486dd6059ac6e17163ea6f);
+        
+    
+        var popup_5357638236ca0692825e89d5b0afda30 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_310bd01d133b352faea52e6f3f142cc6 = $(`<div id="html_310bd01d133b352faea52e6f3f142cc6" style="width: 100.0%; height: 100.0%;">Haryana: $120M</div>`)[0];
+                popup_5357638236ca0692825e89d5b0afda30.setContent(html_310bd01d133b352faea52e6f3f142cc6);
+            
+        
+
+        circle_marker_814e698b29e8129ccf9892188cd8d334.bindPopup(popup_5357638236ca0692825e89d5b0afda30)
+        ;
+
+        
+    
+    
+            var circle_marker_5de9b7b03d86f90c8a08dc156526cb8c = L.circleMarker(
+                [15.2993, 74.124],
+                {"bubblingMouseEvents": true, "color": "#2a9500ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a9500ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.0, "stroke": true, "weight": 3}
+            ).addTo(map_7a24474f3c486dd6059ac6e17163ea6f);
+        
+    
+        var popup_63377a8c44d1877f4d982b793ba9c932 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9305735be109121495449ecfe7fd4264 = $(`<div id="html_9305735be109121495449ecfe7fd4264" style="width: 100.0%; height: 100.0%;">Goa: $90M</div>`)[0];
+                popup_63377a8c44d1877f4d982b793ba9c932.setContent(html_9305735be109121495449ecfe7fd4264);
+            
+        
+
+        circle_marker_5de9b7b03d86f90c8a08dc156526cb8c.bindPopup(popup_63377a8c44d1877f4d982b793ba9c932)
+        ;
+
+        
+    
+    
+            var circle_marker_1ef6588da349503271dac1ad449844b8 = L.circleMarker(
+                [30.0668, 79.0193],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.0, "stroke": true, "weight": 3}
+            ).addTo(map_7a24474f3c486dd6059ac6e17163ea6f);
+        
+    
+        var popup_aa70409157fbc39309c6a33502dfc00d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_88c940a4d902a294e1968d60b90e99f6 = $(`<div id="html_88c940a4d902a294e1968d60b90e99f6" style="width: 100.0%; height: 100.0%;">Uttrakhand: $80M</div>`)[0];
+                popup_aa70409157fbc39309c6a33502dfc00d.setContent(html_88c940a4d902a294e1968d60b90e99f6);
+            
+        
+
+        circle_marker_1ef6588da349503271dac1ad449844b8.bindPopup(popup_aa70409157fbc39309c6a33502dfc00d)
+        ;
+
+        
+    
+    
+            var circle_marker_56b475338a8609e28331aef826f8e5cb = L.circleMarker(
+                [26.8467, 80.9462],
+                {"bubblingMouseEvents": true, "color": "#ff7f00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7f00ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 17.0, "stroke": true, "weight": 3}
+            ).addTo(map_7a24474f3c486dd6059ac6e17163ea6f);
+        
+    
+        var popup_1dbe3f30576c5166495f4ddc6407efb7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1d36a50d7fd260a0435c305972869a33 = $(`<div id="html_1d36a50d7fd260a0435c305972869a33" style="width: 100.0%; height: 100.0%;">Uttar Pradesh: $170M</div>`)[0];
+                popup_1dbe3f30576c5166495f4ddc6407efb7.setContent(html_1d36a50d7fd260a0435c305972869a33);
+            
+        
+
+        circle_marker_56b475338a8609e28331aef826f8e5cb.bindPopup(popup_1dbe3f30576c5166495f4ddc6407efb7)
+        ;
+
+        
+    
+</script>
+</html>
