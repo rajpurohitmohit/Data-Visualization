@@ -1,0 +1,1815 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_1e8fdfe2e13bc9a96c33b962833176f6 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_1e8fdfe2e13bc9a96c33b962833176f6" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_1e8fdfe2e13bc9a96c33b962833176f6 = L.map(
+                "map_1e8fdfe2e13bc9a96c33b962833176f6",
+                {
+                    center: [0.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 1,
+  "zoomControl": true,
+  "preferCanvas": false,
+  "Location": [20.5937, 78.9629],
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_988f66327b04e18ad5a5a193457eefcf = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_988f66327b04e18ad5a5a193457eefcf.addTo(map_1e8fdfe2e13bc9a96c33b962833176f6);
+        
+    
+            var marker_611c868c22a7bc53830c1dde857ca738 = L.marker(
+                [16.5, 80.63],
+                {
+}
+            ).addTo(map_1e8fdfe2e13bc9a96c33b962833176f6);
+        
+    
+            var icon_954292dd44c3decddc65cce10c5841a4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fd97175ea3f04e413752ecd4edc6e2fe = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5d46679e08a4f73616321c05f2f3a253 = $(`<div id="html_5d46679e08a4f73616321c05f2f3a253" style="width: 100.0%; height: 100.0%;">Andhra Pradesh : Population :- 49386799.0</div>`)[0];
+                popup_fd97175ea3f04e413752ecd4edc6e2fe.setContent(html_5d46679e08a4f73616321c05f2f3a253);
+            
+        
+
+        marker_611c868c22a7bc53830c1dde857ca738.bindPopup(popup_fd97175ea3f04e413752ecd4edc6e2fe)
+        ;
+
+        
+    
+    
+            marker_611c868c22a7bc53830c1dde857ca738.bindTooltip(
+                `<div>
+                     click me!
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_611c868c22a7bc53830c1dde857ca738.setIcon(icon_954292dd44c3decddc65cce10c5841a4);
+            
+    
+            var marker_f3cae7372407828cb7a45aae03092e04 = L.marker(
+                [27.07, 93.37],
+                {
+}
+            ).addTo(map_1e8fdfe2e13bc9a96c33b962833176f6);
+        
+    
+            var icon_492ef53aa22098e2613224be18f0c0a7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a829f0c40ba4d596d9f77bcff747893e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a8e1441dfd0e50695181b9d8a9f990d6 = $(`<div id="html_a8e1441dfd0e50695181b9d8a9f990d6" style="width: 100.0%; height: 100.0%;">Arunachal Pradesh : Population :- 1383727.0</div>`)[0];
+                popup_a829f0c40ba4d596d9f77bcff747893e.setContent(html_a8e1441dfd0e50695181b9d8a9f990d6);
+            
+        
+
+        marker_f3cae7372407828cb7a45aae03092e04.bindPopup(popup_a829f0c40ba4d596d9f77bcff747893e)
+        ;
+
+        
+    
+    
+            marker_f3cae7372407828cb7a45aae03092e04.bindTooltip(
+                `<div>
+                     click me!
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_f3cae7372407828cb7a45aae03092e04.setIcon(icon_492ef53aa22098e2613224be18f0c0a7);
+            
+    
+            var marker_c8693e89aa87594a97692c747a4b6f42 = L.marker(
+                [26.13, 91.77],
+                {
+}
+            ).addTo(map_1e8fdfe2e13bc9a96c33b962833176f6);
+        
+    
+            var icon_9f0dd6a032156265cf883a159aaf3ea8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2473f1b7368136d1c5fdb0463e0bce23 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dd1c71b07743c12097b2e86cbb50704e = $(`<div id="html_dd1c71b07743c12097b2e86cbb50704e" style="width: 100.0%; height: 100.0%;">Assam : Population :- 31169272.0</div>`)[0];
+                popup_2473f1b7368136d1c5fdb0463e0bce23.setContent(html_dd1c71b07743c12097b2e86cbb50704e);
+            
+        
+
+        marker_c8693e89aa87594a97692c747a4b6f42.bindPopup(popup_2473f1b7368136d1c5fdb0463e0bce23)
+        ;
+
+        
+    
+    
+            marker_c8693e89aa87594a97692c747a4b6f42.bindTooltip(
+                `<div>
+                     click me!
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c8693e89aa87594a97692c747a4b6f42.setIcon(icon_9f0dd6a032156265cf883a159aaf3ea8);
+            
+    
+            var marker_47fcd5dbafa2c3750e408b92444b4a74 = L.marker(
+                [25.4, 85.1],
+                {
+}
+            ).addTo(map_1e8fdfe2e13bc9a96c33b962833176f6);
+        
+    
+            var icon_391b29597e4694ef9c05709bf26b32e5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_96a126c9f0af979b748ccbf006a45103 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b5b1ce75beec18d84532bf7fbf59e571 = $(`<div id="html_b5b1ce75beec18d84532bf7fbf59e571" style="width: 100.0%; height: 100.0%;">Bihar : Population :- 104099452.0</div>`)[0];
+                popup_96a126c9f0af979b748ccbf006a45103.setContent(html_b5b1ce75beec18d84532bf7fbf59e571);
+            
+        
+
+        marker_47fcd5dbafa2c3750e408b92444b4a74.bindPopup(popup_96a126c9f0af979b748ccbf006a45103)
+        ;
+
+        
+    
+    
+            marker_47fcd5dbafa2c3750e408b92444b4a74.bindTooltip(
+                `<div>
+                     click me!
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_47fcd5dbafa2c3750e408b92444b4a74.setIcon(icon_391b29597e4694ef9c05709bf26b32e5);
+            
+    
+            var marker_b4c2fddd7c4ffd0c9f6534c0ad70a9b0 = L.marker(
+                [21.25, 81.6],
+                {
+}
+            ).addTo(map_1e8fdfe2e13bc9a96c33b962833176f6);
+        
+    
+            var icon_0c0e5d9aeba88576d841c1a28c23d672 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ae537179489e3cf9361f82cd56269fe4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_687e00990d03aa4550285cc8f9010511 = $(`<div id="html_687e00990d03aa4550285cc8f9010511" style="width: 100.0%; height: 100.0%;">Chhattisgarh : Population :- 25545198.0</div>`)[0];
+                popup_ae537179489e3cf9361f82cd56269fe4.setContent(html_687e00990d03aa4550285cc8f9010511);
+            
+        
+
+        marker_b4c2fddd7c4ffd0c9f6534c0ad70a9b0.bindPopup(popup_ae537179489e3cf9361f82cd56269fe4)
+        ;
+
+        
+    
+    
+            marker_b4c2fddd7c4ffd0c9f6534c0ad70a9b0.bindTooltip(
+                `<div>
+                     click me!
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b4c2fddd7c4ffd0c9f6534c0ad70a9b0.setIcon(icon_0c0e5d9aeba88576d841c1a28c23d672);
+            
+    
+            var marker_b9403da11a87b621b273fe15393e085b = L.marker(
+                [15.5, 73.83],
+                {
+}
+            ).addTo(map_1e8fdfe2e13bc9a96c33b962833176f6);
+        
+    
+            var icon_60cb2090f682f7f7e55f3a12f06ef7fe = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8cd56a992a61598b0473f3b5ac588998 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_16c48c2055e73e56c42be0b874e3b1cd = $(`<div id="html_16c48c2055e73e56c42be0b874e3b1cd" style="width: 100.0%; height: 100.0%;">Goa : Population :- 1458545.0</div>`)[0];
+                popup_8cd56a992a61598b0473f3b5ac588998.setContent(html_16c48c2055e73e56c42be0b874e3b1cd);
+            
+        
+
+        marker_b9403da11a87b621b273fe15393e085b.bindPopup(popup_8cd56a992a61598b0473f3b5ac588998)
+        ;
+
+        
+    
+    
+            marker_b9403da11a87b621b273fe15393e085b.bindTooltip(
+                `<div>
+                     click me!
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b9403da11a87b621b273fe15393e085b.setIcon(icon_60cb2090f682f7f7e55f3a12f06ef7fe);
+            
+    
+            var marker_ad9ced0da590cdcff38153d7f8587d99 = L.marker(
+                [23.22, 72.68],
+                {
+}
+            ).addTo(map_1e8fdfe2e13bc9a96c33b962833176f6);
+        
+    
+            var icon_fa19636388b639f3fb56aa443979e6a4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_200a83bdb59aef10b8c8157343230d79 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c6a1d6f20a830ea02bbd95b3c6e7bdb4 = $(`<div id="html_c6a1d6f20a830ea02bbd95b3c6e7bdb4" style="width: 100.0%; height: 100.0%;">Gujarat : Population :- 60439692.0</div>`)[0];
+                popup_200a83bdb59aef10b8c8157343230d79.setContent(html_c6a1d6f20a830ea02bbd95b3c6e7bdb4);
+            
+        
+
+        marker_ad9ced0da590cdcff38153d7f8587d99.bindPopup(popup_200a83bdb59aef10b8c8157343230d79)
+        ;
+
+        
+    
+    
+            marker_ad9ced0da590cdcff38153d7f8587d99.bindTooltip(
+                `<div>
+                     click me!
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_ad9ced0da590cdcff38153d7f8587d99.setIcon(icon_fa19636388b639f3fb56aa443979e6a4);
+            
+    
+            var marker_027992888fd84ef6bedab276585cc7e5 = L.marker(
+                [30.73, 76.78],
+                {
+}
+            ).addTo(map_1e8fdfe2e13bc9a96c33b962833176f6);
+        
+    
+            var icon_cb73e91e8314a8b0b866d57edbc8dd38 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f08e731b2e1a1cda0cc14a7cbefdaec1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_605a5379b2c391ef14cdb722e19446f8 = $(`<div id="html_605a5379b2c391ef14cdb722e19446f8" style="width: 100.0%; height: 100.0%;">Haryana : Population :- 25351462.0</div>`)[0];
+                popup_f08e731b2e1a1cda0cc14a7cbefdaec1.setContent(html_605a5379b2c391ef14cdb722e19446f8);
+            
+        
+
+        marker_027992888fd84ef6bedab276585cc7e5.bindPopup(popup_f08e731b2e1a1cda0cc14a7cbefdaec1)
+        ;
+
+        
+    
+    
+            marker_027992888fd84ef6bedab276585cc7e5.bindTooltip(
+                `<div>
+                     click me!
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_027992888fd84ef6bedab276585cc7e5.setIcon(icon_cb73e91e8314a8b0b866d57edbc8dd38);
+            
+    
+            var marker_bceef67858663a80afe6ecc407821436 = L.marker(
+                [31.1, 77.17],
+                {
+}
+            ).addTo(map_1e8fdfe2e13bc9a96c33b962833176f6);
+        
+    
+            var icon_2a603f57948b371326df3fda6289dc70 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c998d04f723bd184b55130d975161b3c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5a9d701d1e6149dddea09998abad003b = $(`<div id="html_5a9d701d1e6149dddea09998abad003b" style="width: 100.0%; height: 100.0%;">Himachal Pradesh : Population :- 6864602.0</div>`)[0];
+                popup_c998d04f723bd184b55130d975161b3c.setContent(html_5a9d701d1e6149dddea09998abad003b);
+            
+        
+
+        marker_bceef67858663a80afe6ecc407821436.bindPopup(popup_c998d04f723bd184b55130d975161b3c)
+        ;
+
+        
+    
+    
+            marker_bceef67858663a80afe6ecc407821436.bindTooltip(
+                `<div>
+                     click me!
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_bceef67858663a80afe6ecc407821436.setIcon(icon_2a603f57948b371326df3fda6289dc70);
+            
+    
+            var marker_6ee3597953e49872dff39e87f8b708c4 = L.marker(
+                [23.35, 85.33],
+                {
+}
+            ).addTo(map_1e8fdfe2e13bc9a96c33b962833176f6);
+        
+    
+            var icon_17def203beaea5724ab8cca62b80a381 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f4e4e1c7cd34aa39bbf8941bf158480e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f18312f730392b61c95fcf912da0c42c = $(`<div id="html_f18312f730392b61c95fcf912da0c42c" style="width: 100.0%; height: 100.0%;">Jharkhand : Population :- 32988134.0</div>`)[0];
+                popup_f4e4e1c7cd34aa39bbf8941bf158480e.setContent(html_f18312f730392b61c95fcf912da0c42c);
+            
+        
+
+        marker_6ee3597953e49872dff39e87f8b708c4.bindPopup(popup_f4e4e1c7cd34aa39bbf8941bf158480e)
+        ;
+
+        
+    
+    
+            marker_6ee3597953e49872dff39e87f8b708c4.bindTooltip(
+                `<div>
+                     click me!
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_6ee3597953e49872dff39e87f8b708c4.setIcon(icon_17def203beaea5724ab8cca62b80a381);
+            
+    
+            var marker_dfc2a83159422317f1ab9ed4450ae8c8 = L.marker(
+                [12.97, 77.5],
+                {
+}
+            ).addTo(map_1e8fdfe2e13bc9a96c33b962833176f6);
+        
+    
+            var icon_09904e5cfcb1e4fb6785bd817fd59d7f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6551127a253bc4e99341218ed0fda627 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5018c4132d36d930ca9ead022b97834f = $(`<div id="html_5018c4132d36d930ca9ead022b97834f" style="width: 100.0%; height: 100.0%;">Karnataka : Population :- 61095297.0</div>`)[0];
+                popup_6551127a253bc4e99341218ed0fda627.setContent(html_5018c4132d36d930ca9ead022b97834f);
+            
+        
+
+        marker_dfc2a83159422317f1ab9ed4450ae8c8.bindPopup(popup_6551127a253bc4e99341218ed0fda627)
+        ;
+
+        
+    
+    
+            marker_dfc2a83159422317f1ab9ed4450ae8c8.bindTooltip(
+                `<div>
+                     click me!
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_dfc2a83159422317f1ab9ed4450ae8c8.setIcon(icon_09904e5cfcb1e4fb6785bd817fd59d7f);
+            
+    
+            var marker_b15b02cf30879f0646c4601cc5ea9100 = L.marker(
+                [8.5, 77.0],
+                {
+}
+            ).addTo(map_1e8fdfe2e13bc9a96c33b962833176f6);
+        
+    
+            var icon_8f72263ba2f01ffa468216933be3da0b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6456d337b5533d963164095b16cc83b5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7f8b5d6865fc438be16ff369df9d2726 = $(`<div id="html_7f8b5d6865fc438be16ff369df9d2726" style="width: 100.0%; height: 100.0%;">Kerala : Population :- 33406061.0</div>`)[0];
+                popup_6456d337b5533d963164095b16cc83b5.setContent(html_7f8b5d6865fc438be16ff369df9d2726);
+            
+        
+
+        marker_b15b02cf30879f0646c4601cc5ea9100.bindPopup(popup_6456d337b5533d963164095b16cc83b5)
+        ;
+
+        
+    
+    
+            marker_b15b02cf30879f0646c4601cc5ea9100.bindTooltip(
+                `<div>
+                     click me!
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b15b02cf30879f0646c4601cc5ea9100.setIcon(icon_8f72263ba2f01ffa468216933be3da0b);
+            
+    
+            var marker_198d5ec75a7c675a9349f5f02058f8e8 = L.marker(
+                [0.0, 0.0],
+                {
+}
+            ).addTo(map_1e8fdfe2e13bc9a96c33b962833176f6);
+        
+    
+            var icon_cd6af58526c3734bf395013285950959 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9bd582cbfa8c15e5d23f5fc782f6ff78 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f404bfb87ebcd622241a49827249b894 = $(`<div id="html_f404bfb87ebcd622241a49827249b894" style="width: 100.0%; height: 100.0%;">Madhya Pradesh : Population :- 72626809.0</div>`)[0];
+                popup_9bd582cbfa8c15e5d23f5fc782f6ff78.setContent(html_f404bfb87ebcd622241a49827249b894);
+            
+        
+
+        marker_198d5ec75a7c675a9349f5f02058f8e8.bindPopup(popup_9bd582cbfa8c15e5d23f5fc782f6ff78)
+        ;
+
+        
+    
+    
+            marker_198d5ec75a7c675a9349f5f02058f8e8.bindTooltip(
+                `<div>
+                     click me!
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_198d5ec75a7c675a9349f5f02058f8e8.setIcon(icon_cd6af58526c3734bf395013285950959);
+            
+    
+            var marker_84114285d52e214ba59ed49fc3cb0c9c = L.marker(
+                [18.97, 72.82],
+                {
+}
+            ).addTo(map_1e8fdfe2e13bc9a96c33b962833176f6);
+        
+    
+            var icon_8b48d4e1c21e551b629b8bbad55fe252 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c916f4ef5b00b1c51ab1decfd9288799 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d20071529bbb38673a24edb08aae16dc = $(`<div id="html_d20071529bbb38673a24edb08aae16dc" style="width: 100.0%; height: 100.0%;">Maharashtra : Population :- 112374333.0</div>`)[0];
+                popup_c916f4ef5b00b1c51ab1decfd9288799.setContent(html_d20071529bbb38673a24edb08aae16dc);
+            
+        
+
+        marker_84114285d52e214ba59ed49fc3cb0c9c.bindPopup(popup_c916f4ef5b00b1c51ab1decfd9288799)
+        ;
+
+        
+    
+    
+            marker_84114285d52e214ba59ed49fc3cb0c9c.bindTooltip(
+                `<div>
+                     click me!
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_84114285d52e214ba59ed49fc3cb0c9c.setIcon(icon_8b48d4e1c21e551b629b8bbad55fe252);
+            
+    
+            var marker_86b1b0ed916a338beb053f5370b1006e = L.marker(
+                [0.0, 0.0],
+                {
+}
+            ).addTo(map_1e8fdfe2e13bc9a96c33b962833176f6);
+        
+    
+            var icon_05f306c261a2b7beb706a5c878b98acc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4cf4d2042759b1e22db3ad4434785a66 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d6f3fcba5ee62c26ab4d14e3442edad0 = $(`<div id="html_d6f3fcba5ee62c26ab4d14e3442edad0" style="width: 100.0%; height: 100.0%;">Manipur : Population :- 2721756.0</div>`)[0];
+                popup_4cf4d2042759b1e22db3ad4434785a66.setContent(html_d6f3fcba5ee62c26ab4d14e3442edad0);
+            
+        
+
+        marker_86b1b0ed916a338beb053f5370b1006e.bindPopup(popup_4cf4d2042759b1e22db3ad4434785a66)
+        ;
+
+        
+    
+    
+            marker_86b1b0ed916a338beb053f5370b1006e.bindTooltip(
+                `<div>
+                     click me!
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_86b1b0ed916a338beb053f5370b1006e.setIcon(icon_05f306c261a2b7beb706a5c878b98acc);
+            
+    
+            var marker_b541f588fa5d442312102ac1dd26efb0 = L.marker(
+                [25.57, 91.88],
+                {
+}
+            ).addTo(map_1e8fdfe2e13bc9a96c33b962833176f6);
+        
+    
+            var icon_0346456d2ce93d6b146c93123e49282d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a1c88ede200c817599145a4fa4241d01 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c119a9748dc05203a05392342600dfe8 = $(`<div id="html_c119a9748dc05203a05392342600dfe8" style="width: 100.0%; height: 100.0%;">Meghalaya : Population :- 2966889.0</div>`)[0];
+                popup_a1c88ede200c817599145a4fa4241d01.setContent(html_c119a9748dc05203a05392342600dfe8);
+            
+        
+
+        marker_b541f588fa5d442312102ac1dd26efb0.bindPopup(popup_a1c88ede200c817599145a4fa4241d01)
+        ;
+
+        
+    
+    
+            marker_b541f588fa5d442312102ac1dd26efb0.bindTooltip(
+                `<div>
+                     click me!
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b541f588fa5d442312102ac1dd26efb0.setIcon(icon_0346456d2ce93d6b146c93123e49282d);
+            
+    
+            var marker_2c5883b89d5ef754a31919cd76a23ad6 = L.marker(
+                [23.37, 92.8],
+                {
+}
+            ).addTo(map_1e8fdfe2e13bc9a96c33b962833176f6);
+        
+    
+            var icon_51eb2d9c195cbf90a79f1d9ff5d6bf02 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c84fc758d9592aa54420aa4c17d7d185 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7926644501a1fed7902a517c13454dc3 = $(`<div id="html_7926644501a1fed7902a517c13454dc3" style="width: 100.0%; height: 100.0%;">Mizoram : Population :- 1097206.0</div>`)[0];
+                popup_c84fc758d9592aa54420aa4c17d7d185.setContent(html_7926644501a1fed7902a517c13454dc3);
+            
+        
+
+        marker_2c5883b89d5ef754a31919cd76a23ad6.bindPopup(popup_c84fc758d9592aa54420aa4c17d7d185)
+        ;
+
+        
+    
+    
+            marker_2c5883b89d5ef754a31919cd76a23ad6.bindTooltip(
+                `<div>
+                     click me!
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_2c5883b89d5ef754a31919cd76a23ad6.setIcon(icon_51eb2d9c195cbf90a79f1d9ff5d6bf02);
+            
+    
+            var marker_c0371e8b54c1b37e83a7afacd086574f = L.marker(
+                [25.67, 94.12],
+                {
+}
+            ).addTo(map_1e8fdfe2e13bc9a96c33b962833176f6);
+        
+    
+            var icon_f020f8d2f905dc3ded20ce91aac0fb10 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d2795ead1fbedc017860787668efc82a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_74e7262d1966e3d645c45e9a5ab6c17f = $(`<div id="html_74e7262d1966e3d645c45e9a5ab6c17f" style="width: 100.0%; height: 100.0%;">Nagaland : Population :- 1978502.0</div>`)[0];
+                popup_d2795ead1fbedc017860787668efc82a.setContent(html_74e7262d1966e3d645c45e9a5ab6c17f);
+            
+        
+
+        marker_c0371e8b54c1b37e83a7afacd086574f.bindPopup(popup_d2795ead1fbedc017860787668efc82a)
+        ;
+
+        
+    
+    
+            marker_c0371e8b54c1b37e83a7afacd086574f.bindTooltip(
+                `<div>
+                     click me!
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c0371e8b54c1b37e83a7afacd086574f.setIcon(icon_f020f8d2f905dc3ded20ce91aac0fb10);
+            
+    
+            var marker_e2cc6476f22c8d21f4310033d00dc74e = L.marker(
+                [20.27, 85.82],
+                {
+}
+            ).addTo(map_1e8fdfe2e13bc9a96c33b962833176f6);
+        
+    
+            var icon_757642a7571f549143eb1cf7acd5af13 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_58b23cfdf517f5577833e064f910ee71 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_04412687ef31134171dcf82f5b629a89 = $(`<div id="html_04412687ef31134171dcf82f5b629a89" style="width: 100.0%; height: 100.0%;">Odisha : Population :- 41974218.0</div>`)[0];
+                popup_58b23cfdf517f5577833e064f910ee71.setContent(html_04412687ef31134171dcf82f5b629a89);
+            
+        
+
+        marker_e2cc6476f22c8d21f4310033d00dc74e.bindPopup(popup_58b23cfdf517f5577833e064f910ee71)
+        ;
+
+        
+    
+    
+            marker_e2cc6476f22c8d21f4310033d00dc74e.bindTooltip(
+                `<div>
+                     click me!
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_e2cc6476f22c8d21f4310033d00dc74e.setIcon(icon_757642a7571f549143eb1cf7acd5af13);
+            
+    
+            var marker_d6e4faed18efed432339a58b63ea4e4f = L.marker(
+                [0.0, 0.0],
+                {
+}
+            ).addTo(map_1e8fdfe2e13bc9a96c33b962833176f6);
+        
+    
+            var icon_baee7eb9ffbccf761b6da8c63cbee79b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_97fd563c106a34e7c8927efc363882f3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d94068cff9b2687f94e8fb2437682234 = $(`<div id="html_d94068cff9b2687f94e8fb2437682234" style="width: 100.0%; height: 100.0%;">Punjab : Population :- 27743338.0</div>`)[0];
+                popup_97fd563c106a34e7c8927efc363882f3.setContent(html_d94068cff9b2687f94e8fb2437682234);
+            
+        
+
+        marker_d6e4faed18efed432339a58b63ea4e4f.bindPopup(popup_97fd563c106a34e7c8927efc363882f3)
+        ;
+
+        
+    
+    
+            marker_d6e4faed18efed432339a58b63ea4e4f.bindTooltip(
+                `<div>
+                     click me!
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_d6e4faed18efed432339a58b63ea4e4f.setIcon(icon_baee7eb9ffbccf761b6da8c63cbee79b);
+            
+    
+            var marker_dabf5a52946b907ac2aff0f916a3b725 = L.marker(
+                [26.6, 73.8],
+                {
+}
+            ).addTo(map_1e8fdfe2e13bc9a96c33b962833176f6);
+        
+    
+            var icon_79cabb73b99b6ad41674737d00a3c267 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8d70129df11b23ed6ab8e4369d563675 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_da67d592cc324a003497eafa993cafcb = $(`<div id="html_da67d592cc324a003497eafa993cafcb" style="width: 100.0%; height: 100.0%;">Rajasthan : Population :- 68548437.0</div>`)[0];
+                popup_8d70129df11b23ed6ab8e4369d563675.setContent(html_da67d592cc324a003497eafa993cafcb);
+            
+        
+
+        marker_dabf5a52946b907ac2aff0f916a3b725.bindPopup(popup_8d70129df11b23ed6ab8e4369d563675)
+        ;
+
+        
+    
+    
+            marker_dabf5a52946b907ac2aff0f916a3b725.bindTooltip(
+                `<div>
+                     click me!
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_dabf5a52946b907ac2aff0f916a3b725.setIcon(icon_79cabb73b99b6ad41674737d00a3c267);
+            
+    
+            var marker_a31445621c20dfde017884ff72d310ef = L.marker(
+                [27.33, 88.62],
+                {
+}
+            ).addTo(map_1e8fdfe2e13bc9a96c33b962833176f6);
+        
+    
+            var icon_4924222a9169e7f57866265ad3b37afd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8eb381df466693d627f1826817e23df0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_02cdbe91ce6865a605c145a023393fb3 = $(`<div id="html_02cdbe91ce6865a605c145a023393fb3" style="width: 100.0%; height: 100.0%;">Sikkim : Population :- 610577.0</div>`)[0];
+                popup_8eb381df466693d627f1826817e23df0.setContent(html_02cdbe91ce6865a605c145a023393fb3);
+            
+        
+
+        marker_a31445621c20dfde017884ff72d310ef.bindPopup(popup_8eb381df466693d627f1826817e23df0)
+        ;
+
+        
+    
+    
+            marker_a31445621c20dfde017884ff72d310ef.bindTooltip(
+                `<div>
+                     click me!
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_a31445621c20dfde017884ff72d310ef.setIcon(icon_4924222a9169e7f57866265ad3b37afd);
+            
+    
+            var marker_6e53d8000aa68e53741aac504376d427 = L.marker(
+                [13.08, 80.27],
+                {
+}
+            ).addTo(map_1e8fdfe2e13bc9a96c33b962833176f6);
+        
+    
+            var icon_c5c71c178dd60b76b0df5fa2ddcf3638 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_175ed6fed7280125fe89b2943cd194e1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2c482cc1915093333662812e130459fb = $(`<div id="html_2c482cc1915093333662812e130459fb" style="width: 100.0%; height: 100.0%;">Tamil Nadu : Population :- 72147030.0</div>`)[0];
+                popup_175ed6fed7280125fe89b2943cd194e1.setContent(html_2c482cc1915093333662812e130459fb);
+            
+        
+
+        marker_6e53d8000aa68e53741aac504376d427.bindPopup(popup_175ed6fed7280125fe89b2943cd194e1)
+        ;
+
+        
+    
+    
+            marker_6e53d8000aa68e53741aac504376d427.bindTooltip(
+                `<div>
+                     click me!
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_6e53d8000aa68e53741aac504376d427.setIcon(icon_c5c71c178dd60b76b0df5fa2ddcf3638);
+            
+    
+            var marker_5b8895d107c5add7eea1efd2818515cc = L.marker(
+                [17.35, 78.47],
+                {
+}
+            ).addTo(map_1e8fdfe2e13bc9a96c33b962833176f6);
+        
+    
+            var icon_b6736a28920d51ba5e6caaa4821b97d8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8f059a4bde977894b30901eb8aefbb43 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_23e18eed8466144bbe4108ff0a9043d4 = $(`<div id="html_23e18eed8466144bbe4108ff0a9043d4" style="width: 100.0%; height: 100.0%;">Telangana : Population :- 35193978.0</div>`)[0];
+                popup_8f059a4bde977894b30901eb8aefbb43.setContent(html_23e18eed8466144bbe4108ff0a9043d4);
+            
+        
+
+        marker_5b8895d107c5add7eea1efd2818515cc.bindPopup(popup_8f059a4bde977894b30901eb8aefbb43)
+        ;
+
+        
+    
+    
+            marker_5b8895d107c5add7eea1efd2818515cc.bindTooltip(
+                `<div>
+                     click me!
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_5b8895d107c5add7eea1efd2818515cc.setIcon(icon_b6736a28920d51ba5e6caaa4821b97d8);
+            
+    
+            var marker_d5abbcbc65e74bbce94bc842a5b4dc41 = L.marker(
+                [23.83, 91.28],
+                {
+}
+            ).addTo(map_1e8fdfe2e13bc9a96c33b962833176f6);
+        
+    
+            var icon_e52287fd7f34f01c793275c78e9182b8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d76f76097812af1fe20de1f7d71c9c0c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cd3466a6912890da8e7d106f7bc27cf7 = $(`<div id="html_cd3466a6912890da8e7d106f7bc27cf7" style="width: 100.0%; height: 100.0%;">Tripura : Population :- 3673917.0</div>`)[0];
+                popup_d76f76097812af1fe20de1f7d71c9c0c.setContent(html_cd3466a6912890da8e7d106f7bc27cf7);
+            
+        
+
+        marker_d5abbcbc65e74bbce94bc842a5b4dc41.bindPopup(popup_d76f76097812af1fe20de1f7d71c9c0c)
+        ;
+
+        
+    
+    
+            marker_d5abbcbc65e74bbce94bc842a5b4dc41.bindTooltip(
+                `<div>
+                     click me!
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_d5abbcbc65e74bbce94bc842a5b4dc41.setIcon(icon_e52287fd7f34f01c793275c78e9182b8);
+            
+    
+            var marker_9a3f3938eec7bc4857ad91503d3857f7 = L.marker(
+                [26.85, 80.92],
+                {
+}
+            ).addTo(map_1e8fdfe2e13bc9a96c33b962833176f6);
+        
+    
+            var icon_c5c40f930204e1c0e96f57acf19e6680 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0955d5aa810cc62bb7d42864d979a2cd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e5c199cb43e6f41df58a0a76d20f5d0e = $(`<div id="html_e5c199cb43e6f41df58a0a76d20f5d0e" style="width: 100.0%; height: 100.0%;">Uttar Pradesh : Population :- 199812341.0</div>`)[0];
+                popup_0955d5aa810cc62bb7d42864d979a2cd.setContent(html_e5c199cb43e6f41df58a0a76d20f5d0e);
+            
+        
+
+        marker_9a3f3938eec7bc4857ad91503d3857f7.bindPopup(popup_0955d5aa810cc62bb7d42864d979a2cd)
+        ;
+
+        
+    
+    
+            marker_9a3f3938eec7bc4857ad91503d3857f7.bindTooltip(
+                `<div>
+                     click me!
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_9a3f3938eec7bc4857ad91503d3857f7.setIcon(icon_c5c40f930204e1c0e96f57acf19e6680);
+            
+    
+            var marker_5edd684c31bc6a358922510dd6dd1f60 = L.marker(
+                [30.33, 78.07],
+                {
+}
+            ).addTo(map_1e8fdfe2e13bc9a96c33b962833176f6);
+        
+    
+            var icon_25e2639bd642ebba6b9b08dd462a92da = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0a0b07f5bb8d25848f76e7f073d1d53b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_199c74c222de1c3f3b7aae3a4d6ce0a6 = $(`<div id="html_199c74c222de1c3f3b7aae3a4d6ce0a6" style="width: 100.0%; height: 100.0%;">Uttarakhand : Population :- 10086292.0</div>`)[0];
+                popup_0a0b07f5bb8d25848f76e7f073d1d53b.setContent(html_199c74c222de1c3f3b7aae3a4d6ce0a6);
+            
+        
+
+        marker_5edd684c31bc6a358922510dd6dd1f60.bindPopup(popup_0a0b07f5bb8d25848f76e7f073d1d53b)
+        ;
+
+        
+    
+    
+            marker_5edd684c31bc6a358922510dd6dd1f60.bindTooltip(
+                `<div>
+                     click me!
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_5edd684c31bc6a358922510dd6dd1f60.setIcon(icon_25e2639bd642ebba6b9b08dd462a92da);
+            
+    
+            var marker_035523ca6bf357306b2e40f050e1e52b = L.marker(
+                [22.57, 88.37],
+                {
+}
+            ).addTo(map_1e8fdfe2e13bc9a96c33b962833176f6);
+        
+    
+            var icon_961d180d0ff2a97d4de3c35bb73b6a35 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ce9da1f88b2b98ef1cd1f91df2a7d379 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2cdd2dca603ff1874f700570c306405c = $(`<div id="html_2cdd2dca603ff1874f700570c306405c" style="width: 100.0%; height: 100.0%;">West Bengal : Population :- 91276115.0</div>`)[0];
+                popup_ce9da1f88b2b98ef1cd1f91df2a7d379.setContent(html_2cdd2dca603ff1874f700570c306405c);
+            
+        
+
+        marker_035523ca6bf357306b2e40f050e1e52b.bindPopup(popup_ce9da1f88b2b98ef1cd1f91df2a7d379)
+        ;
+
+        
+    
+    
+            marker_035523ca6bf357306b2e40f050e1e52b.bindTooltip(
+                `<div>
+                     click me!
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_035523ca6bf357306b2e40f050e1e52b.setIcon(icon_961d180d0ff2a97d4de3c35bb73b6a35);
+            
+    
+            var marker_c7263fec4314d737a0be3edb1a7ee61c = L.marker(
+                [11.68, 92.77],
+                {
+}
+            ).addTo(map_1e8fdfe2e13bc9a96c33b962833176f6);
+        
+    
+            var icon_336535f33ed16392ba02e62a0396a753 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9bb9e33d972182b861e559f002341c36 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_763cd3157320bcfffdd568d245e0a218 = $(`<div id="html_763cd3157320bcfffdd568d245e0a218" style="width: 100.0%; height: 100.0%;">Andaman and Nicobar Islands : Population :- 380581.0</div>`)[0];
+                popup_9bb9e33d972182b861e559f002341c36.setContent(html_763cd3157320bcfffdd568d245e0a218);
+            
+        
+
+        marker_c7263fec4314d737a0be3edb1a7ee61c.bindPopup(popup_9bb9e33d972182b861e559f002341c36)
+        ;
+
+        
+    
+    
+            marker_c7263fec4314d737a0be3edb1a7ee61c.bindTooltip(
+                `<div>
+                     click me!
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c7263fec4314d737a0be3edb1a7ee61c.setIcon(icon_336535f33ed16392ba02e62a0396a753);
+            
+    
+            var marker_8ab7a1cadca5f36360cfee22d927a46d = L.marker(
+                [30.75, 76.78],
+                {
+}
+            ).addTo(map_1e8fdfe2e13bc9a96c33b962833176f6);
+        
+    
+            var icon_1c8d78621ef52269fb3184dfc91fab83 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0631a043f694727924c27fa2d043efe2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_44b1b3ef8b41c0df2b92fe115745f27e = $(`<div id="html_44b1b3ef8b41c0df2b92fe115745f27e" style="width: 100.0%; height: 100.0%;">Chandigarh : Population :- 1055450.0</div>`)[0];
+                popup_0631a043f694727924c27fa2d043efe2.setContent(html_44b1b3ef8b41c0df2b92fe115745f27e);
+            
+        
+
+        marker_8ab7a1cadca5f36360cfee22d927a46d.bindPopup(popup_0631a043f694727924c27fa2d043efe2)
+        ;
+
+        
+    
+    
+            marker_8ab7a1cadca5f36360cfee22d927a46d.bindTooltip(
+                `<div>
+                     click me!
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_8ab7a1cadca5f36360cfee22d927a46d.setIcon(icon_1c8d78621ef52269fb3184dfc91fab83);
+            
+    
+            var marker_549a8e180d200c8e81fc8e99f7c8e2ee = L.marker(
+                [20.42, 72.83],
+                {
+}
+            ).addTo(map_1e8fdfe2e13bc9a96c33b962833176f6);
+        
+    
+            var icon_2bb5bf5939abef2ce89746dbf4dff55b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ceb534be6254e8da3ef2dca078f59764 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e88afcd54f3dad07e972612f7c5dc8df = $(`<div id="html_e88afcd54f3dad07e972612f7c5dc8df" style="width: 100.0%; height: 100.0%;">Dadra and Nagar Haveli and Daman and Diu : Population :- 586956.0</div>`)[0];
+                popup_ceb534be6254e8da3ef2dca078f59764.setContent(html_e88afcd54f3dad07e972612f7c5dc8df);
+            
+        
+
+        marker_549a8e180d200c8e81fc8e99f7c8e2ee.bindPopup(popup_ceb534be6254e8da3ef2dca078f59764)
+        ;
+
+        
+    
+    
+            marker_549a8e180d200c8e81fc8e99f7c8e2ee.bindTooltip(
+                `<div>
+                     click me!
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_549a8e180d200c8e81fc8e99f7c8e2ee.setIcon(icon_2bb5bf5939abef2ce89746dbf4dff55b);
+            
+    
+            var marker_89565a402233bbb3ce9c42955ab68315 = L.marker(
+                [28.6, 77.22],
+                {
+}
+            ).addTo(map_1e8fdfe2e13bc9a96c33b962833176f6);
+        
+    
+            var icon_ac0af44daa5114391d6665e35b2163ad = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_491a079dda74db9c3c831b262e482118 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bbc8c382032d3417ee57feb91b6c1328 = $(`<div id="html_bbc8c382032d3417ee57feb91b6c1328" style="width: 100.0%; height: 100.0%;">Delhi : Population :- 16787941.0</div>`)[0];
+                popup_491a079dda74db9c3c831b262e482118.setContent(html_bbc8c382032d3417ee57feb91b6c1328);
+            
+        
+
+        marker_89565a402233bbb3ce9c42955ab68315.bindPopup(popup_491a079dda74db9c3c831b262e482118)
+        ;
+
+        
+    
+    
+            marker_89565a402233bbb3ce9c42955ab68315.bindTooltip(
+                `<div>
+                     click me!
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_89565a402233bbb3ce9c42955ab68315.setIcon(icon_ac0af44daa5114391d6665e35b2163ad);
+            
+    
+            var marker_d08bc86eabf4cb914d8a466a27ee0ceb = L.marker(
+                [0.0, 0.0],
+                {
+}
+            ).addTo(map_1e8fdfe2e13bc9a96c33b962833176f6);
+        
+    
+            var icon_a22c51959549ccbf37a48e969b512acc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_57162864e1beb7ce31ff3ad0422f95de = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_acd8869c7f40fe6c5a7c33945b852a97 = $(`<div id="html_acd8869c7f40fe6c5a7c33945b852a97" style="width: 100.0%; height: 100.0%;">Jammu and Kashmir : Population :- 1247953.0</div>`)[0];
+                popup_57162864e1beb7ce31ff3ad0422f95de.setContent(html_acd8869c7f40fe6c5a7c33945b852a97);
+            
+        
+
+        marker_d08bc86eabf4cb914d8a466a27ee0ceb.bindPopup(popup_57162864e1beb7ce31ff3ad0422f95de)
+        ;
+
+        
+    
+    
+            marker_d08bc86eabf4cb914d8a466a27ee0ceb.bindTooltip(
+                `<div>
+                     click me!
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_d08bc86eabf4cb914d8a466a27ee0ceb.setIcon(icon_a22c51959549ccbf37a48e969b512acc);
+            
+    
+            var marker_61aaf5f2353cdc1edda5dca8128eecaa = L.marker(
+                [34.17, 77.57],
+                {
+}
+            ).addTo(map_1e8fdfe2e13bc9a96c33b962833176f6);
+        
+    
+            var icon_231637e0c0aabf4c2366ddc0efca7c66 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_754431d542d2a3660079dabea24437a1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d69e8d073115c27aa5ba3a77f6b84185 = $(`<div id="html_d69e8d073115c27aa5ba3a77f6b84185" style="width: 100.0%; height: 100.0%;">Ladakh : Population :- 1247953.0</div>`)[0];
+                popup_754431d542d2a3660079dabea24437a1.setContent(html_d69e8d073115c27aa5ba3a77f6b84185);
+            
+        
+
+        marker_61aaf5f2353cdc1edda5dca8128eecaa.bindPopup(popup_754431d542d2a3660079dabea24437a1)
+        ;
+
+        
+    
+    
+            marker_61aaf5f2353cdc1edda5dca8128eecaa.bindTooltip(
+                `<div>
+                     click me!
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_61aaf5f2353cdc1edda5dca8128eecaa.setIcon(icon_231637e0c0aabf4c2366ddc0efca7c66);
+            
+    
+            var marker_cc1308e96c4d92a91bf8ad96d95aa566 = L.marker(
+                [10.57, 72.63],
+                {
+}
+            ).addTo(map_1e8fdfe2e13bc9a96c33b962833176f6);
+        
+    
+            var icon_205cd1d68e91442452592e23eab224e0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_048d374c0dd84f89521c98347d752991 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_194ad5a1d1bf82e6c49ac00f8f13c92b = $(`<div id="html_194ad5a1d1bf82e6c49ac00f8f13c92b" style="width: 100.0%; height: 100.0%;">Lakshadweep : Population :- 64473.0</div>`)[0];
+                popup_048d374c0dd84f89521c98347d752991.setContent(html_194ad5a1d1bf82e6c49ac00f8f13c92b);
+            
+        
+
+        marker_cc1308e96c4d92a91bf8ad96d95aa566.bindPopup(popup_048d374c0dd84f89521c98347d752991)
+        ;
+
+        
+    
+    
+            marker_cc1308e96c4d92a91bf8ad96d95aa566.bindTooltip(
+                `<div>
+                     click me!
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_cc1308e96c4d92a91bf8ad96d95aa566.setIcon(icon_205cd1d68e91442452592e23eab224e0);
+            
+    
+            var marker_5d604b65de9f70d94fed542b4b78b821 = L.marker(
+                [11.9, 79.8],
+                {
+}
+            ).addTo(map_1e8fdfe2e13bc9a96c33b962833176f6);
+        
+    
+            var icon_5d27904d3ae1f9dc1f31dcd9fe6dd95b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b2e8f49424773cd67bf2ed762623e9f2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2e740542f062f0c7fe5c7b21178358a7 = $(`<div id="html_2e740542f062f0c7fe5c7b21178358a7" style="width: 100.0%; height: 100.0%;">Puducherry : Population :- 1247953.0</div>`)[0];
+                popup_b2e8f49424773cd67bf2ed762623e9f2.setContent(html_2e740542f062f0c7fe5c7b21178358a7);
+            
+        
+
+        marker_5d604b65de9f70d94fed542b4b78b821.bindPopup(popup_b2e8f49424773cd67bf2ed762623e9f2)
+        ;
+
+        
+    
+    
+            marker_5d604b65de9f70d94fed542b4b78b821.bindTooltip(
+                `<div>
+                     click me!
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_5d604b65de9f70d94fed542b4b78b821.setIcon(icon_5d27904d3ae1f9dc1f31dcd9fe6dd95b);
+            
+</script>
+</html>
